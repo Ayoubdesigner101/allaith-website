@@ -1,0 +1,649 @@
+
+/* Responsive styles */
+@media (max-width: 1020px) {
+      .nav-links, .nav-actions {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: grid;
+        place-items: center;
+        width: 44px;
+        height: 44px;
+        border: none;
+        border-radius: 999px;
+        background: rgba(255,255,255,.78);
+        color: var(--navy);
+        box-shadow: 0 12px 28px rgba(50,50,93,.12);
+      }
+
+      .hero-inner {
+        grid-template-columns: 1fr;
+        padding-top: 125px;
+      }
+
+      .hero-panel {
+        margin: 0 auto;
+      }
+
+      .cards {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .dark-inner {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .hero {
+        min-height: 1180px;
+      }
+
+      .hero-inner {
+        gap: 45px;
+      }
+
+      .hero-title {
+        font-size: 54px;
+      }
+
+      .hero-copy {
+        font-size: 18px;
+      }
+
+      .eyebrow {
+        align-items: flex-start;
+        border-radius: 20px;
+        flex-wrap: wrap;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .metrics {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .cta-box {
+        padding: 36px;
+      }
+
+      .section {
+        padding: 82px 0;
+      }
+    }
+    @media (max-width: 720px) {
+  .service-strip {
+    padding: 20px 0;
+  }
+
+  .service-strip-item {
+    min-width: 190px;
+    min-height: 64px;
+    border-radius: 18px;
+  }
+
+  .service-strip-track {
+    animation-duration: 24s;
+  }
+}
+@media (max-width: 1020px) {
+  .company-field-modal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-field-modal-images {
+    position: relative;
+    top: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .company-field-modal-image:first-child {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 720px) {
+  .company-field-modal {
+    padding: 0;
+  }
+
+  .company-field-modal-content {
+    width: 100%;
+    max-height: calc(100vh - 42px);
+    border-radius: 30px 30px 0 0;
+    padding: 28px;
+  }
+
+  .company-field-modal-images {
+    grid-template-columns: 1fr;
+  }
+
+  .company-field-modal-image,
+  .company-field-modal-image:first-child {
+    min-height: 210px;
+  }
+
+  .company-field-modal-description p {
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+
+@media (max-width: 1020px) {
+  .company-field-modal {
+    padding: 8vh 18px 0;
+  }
+
+  .company-field-modal-content {
+    width: calc(100vw - 36px);
+    max-height: calc(100vh - 8vh);
+    padding: 38px;
+  }
+
+  .company-field-modal-hero {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .company-field-modal-checks {
+    padding-top: 0;
+  }
+
+  .company-field-modal-showcase {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .company-field-modal-main-image {
+    grid-row: auto;
+    min-height: 360px;
+  }
+
+  .company-field-modal-side-card {
+    min-height: 260px;
+  }
+
+  .company-field-modal-benefits,
+  .company-field-modal-discover-grid {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+}
+
+@media (max-width: 720px) {
+  .company-field-modal {
+    padding: 7vh 10px 0;
+  }
+
+  .company-field-modal-content {
+    width: calc(100vw - 20px);
+    max-height: calc(100vh - 7vh);
+    border-radius: 16px 16px 0 0;
+    padding: 28px 22px 40px;
+  }
+
+  .company-field-modal-close {
+    width: 40px;
+    height: 40px;
+  }
+
+  .company-field-modal-content h2 {
+    font-size: 34px;
+  }
+
+  .company-field-modal-lead,
+  .company-field-modal-benefits p,
+  .company-field-discover-card p {
+    font-size: 16px;
+  }
+
+  .company-field-modal-main-image,
+  .company-field-modal-side-card {
+    min-height: 240px;
+  }
+
+  .company-field-discover-image {
+    height: 220px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .logo-showcase-inner {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .logo-showcase-visual {
+    min-height: 560px;
+  }
+}
+
+@media (max-width: 720px) {
+  .logo-showcase-section {
+    padding: 82px 0;
+  }
+
+  .logo-showcase-visual {
+    min-height: 420px;
+    border-radius: 32px;
+  }
+
+  .logo-showcase-copy {
+    font-size: 17px;
+  }
+}
+/* Company fields responsive cards */
+@media (max-width: 1180px) {
+  .company-fields-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .company-field-card {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 720px) {
+  .company-fields-section {
+    padding: 78px 0;
+  }
+
+  .company-fields-inner {
+    width: min(100% - 24px, 520px);
+  }
+
+  .company-fields-header {
+    max-width: 100%;
+  }
+
+  .company-fields-title {
+    font-size: clamp(38px, 11vw, 52px);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  .company-fields-copy {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .company-fields-grid {
+    margin-top: 38px;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .company-field-card {
+    width: 100%;
+    min-height: auto;
+    padding: 22px;
+    border-radius: 30px;
+  }
+
+  .company-field-top {
+    align-items: flex-start;
+  }
+
+  .company-field-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 20px;
+  }
+
+  .company-field-expand {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 auto;
+  }
+
+  .company-field-images {
+    height: 170px;
+    margin-top: 22px;
+  }
+
+  .company-field-image:first-child {
+    width: 70%;
+    height: 138px;
+    border-radius: 24px;
+  }
+
+  .company-field-image:nth-child(2) {
+    width: 52%;
+    height: 108px;
+    border-radius: 22px;
+  }
+
+  .company-field-subtitle {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.7;
+    word-break: normal;
+  }
+
+  .company-field-card h3 {
+    margin-top: 8px;
+    font-size: clamp(28px, 9vw, 40px);
+    line-height: 1.04;
+    letter-spacing: -0.055em;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .company-field-card p:last-child {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 1.75;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+}
+/* Solutions section responsive */
+@media (max-width: 1020px) {
+  .solutions-modern-section {
+    padding: 92px 0;
+  }
+
+  .solutions-modern-inner {
+    width: min(100% - 32px, 760px);
+  }
+
+  .solutions-modern-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .solution-modern-card,
+  .solution-modern-card-featured {
+    grid-column: auto;
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 720px) {
+  .solutions-modern-section {
+    padding: 78px 0;
+  }
+
+  .solutions-modern-inner {
+    width: min(100% - 24px, 520px);
+  }
+
+  .solutions-modern-header {
+    max-width: 100%;
+  }
+
+  .solutions-modern-title {
+    font-size: clamp(38px, 11vw, 52px);
+    line-height: 0.98;
+    letter-spacing: -0.055em;
+  }
+
+  .solutions-modern-copy {
+    margin-top: 18px;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .solutions-modern-grid {
+    margin-top: 38px;
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .solution-modern-card,
+  .solution-modern-card-featured {
+    width: 100%;
+    grid-column: auto;
+    min-height: auto;
+    padding: 22px;
+    border-radius: 30px;
+  }
+
+  .solution-modern-top {
+    align-items: flex-start;
+  }
+
+  .solution-modern-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 20px;
+    flex: 0 0 auto;
+  }
+
+  .solution-modern-number {
+    font-size: 34px;
+  }
+
+  .solution-modern-label {
+    margin-top: 28px;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.12em;
+    word-break: normal;
+  }
+
+  .solution-modern-card h3 {
+    margin-top: 10px;
+    font-size: clamp(28px, 9vw, 40px);
+    line-height: 1.04;
+    letter-spacing: -0.055em;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .solution-modern-card > p:not(.solution-modern-label) {
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 1.75;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .solution-modern-link {
+    margin-top: 22px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .horizontal-silk-section {
+    min-height: 700px;
+    padding-top: 92px;
+  }
+
+  .horizontal-silk-full-visual {
+    height: 500px;
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 720px) {
+  .horizontal-silk-section {
+    min-height: 620px;
+    padding-top: 76px;
+  }
+
+  .horizontal-silk-title-wrap {
+    width: min(100% - 24px, 520px);
+  }
+
+  .horizontal-silk-kicker {
+    font-size: 11px;
+    letter-spacing: 0.16em;
+  }
+
+  .horizontal-silk-title {
+    font-size: clamp(42px, 13vw, 64px);
+    line-height: 1;
+    letter-spacing: -0.055em;
+  }
+
+  .horizontal-silk-full-visual {
+    height: 430px;
+    margin-top: -12px;
+  }
+}
+@keyframes allaithDashToCore {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -28;
+  }
+}
+
+@keyframes allaithDashFromCore {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: 28;
+  }
+}
+/* =========================================================
+   AL-LAITH Integration Network - Final Fix
+========================================================= */
+
+.allaith-integration-section {
+  position: relative;
+  overflow: hidden;
+  padding: 96px 20px 70px;
+  background: #ffffff;
+  color: #0a090a;
+}
+
+.allaith-integration-title-wrap {
+  position: relative;
+  z-index: 4;
+  max-width: 920px;
+  margin: 0 auto 26px;
+  text-align: center;
+}
+
+.allaith-integration-title {
+  color: #0a090a;
+}
+
+.allaith-integration-subtitle {
+  color: rgba(10, 9, 10, 0.68);
+}
+
+.allaith-integration-visual {
+  position: relative;
+  z-index: 3;
+  width: min(1240px, 100%);
+  height: 700px;
+  margin: 0 auto;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+
+#allaith-integration-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.allaith-network-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.allaith-network-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.allaith-node {
+  position: absolute;
+  z-index: 30;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.allaith-branch-path,
+.allaith-bus-path,
+.allaith-main-path {
+  fill: none !important;
+  stroke: #238abf !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+  vector-effect: non-scaling-stroke;
+}
+
+.allaith-branch-path {
+  stroke-width: 2.2px !important;
+  stroke-dasharray: 5 7 !important;
+  opacity: 0.72 !important;
+  animation: allaithDashToCore 5.8s linear infinite;
+}
+
+.allaith-bus-path {
+  stroke-width: 2.6px !important;
+  stroke-dasharray: 7 8 !important;
+  opacity: 0.9 !important;
+  animation: allaithDashToCore 5.3s linear infinite;
+}
+
+.allaith-main-path {
+  stroke-width: 3.2px !important;
+  stroke-dasharray: 8 9 !important;
+  opacity: 1 !important;
+  animation: allaithDashToCore 4.8s linear infinite;
+}
+
+.allaith-flow-to-core {
+  animation-name: allaithDashToCore !important;
+}
+
+.allaith-flow-from-core {
+  animation-name: allaithDashFromCore !important;
+}
+
+@keyframes allaithDashToCore {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -90;
+  }
+}
+
+@keyframes allaithDashFromCore {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: 90;
+  }
+}
