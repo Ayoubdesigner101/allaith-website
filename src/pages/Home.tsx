@@ -10,7 +10,7 @@ import CompanySection from  "../components/home/CompanySection";
 import ContactCTASection from "../components/home/ContactCTASection";
 import CompanyFieldsSection from "../components/home/CompanyFieldsSection";
 import HorizontalSilkSection from "../components/home/HorizontalSilkSection";
-import AlLaithIntegrationSection from "../components/home/AlLaithIntegrationSection";
+// import AlLaithIntegrationSection from "../components/home/AlLaithIntegrationSection";
 
 
 import "../assets/css/base.css";
@@ -36,7 +36,7 @@ export default function Home() {
       <ServicesStrip />
       <CompanyFieldsSection />
       <SolutionsSection />
-            <AlLaithIntegrationSection />
+            {/* <AlLaithIntegrationSection /> */}
 
       <HorizontalSilkSection />
       <CompanySection />
